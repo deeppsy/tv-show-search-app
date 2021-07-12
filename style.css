@@ -1,0 +1,16 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  /* background-color: aqua; */
+}
+
+.img-container {
+  margin: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container img {
+  margin: 1em auto;
+}

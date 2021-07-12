@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Search App</title>
+    <!-- <link rel="stylesheet" href="C:\Users\HP\Desktop\WEB DEV round 2\Jankey Website\css_reset.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <style>
+        .main {
+            max-width: 1200px;
+            margin: 0 auto;
+            height: auto;
+            /* background-color: aqua; */
+        }
+
+        .img-container {
+            margin: 1em;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .img-container img {
+            margin: 1em auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <h1>TV Show Search</h1>
+        <form id="searchForm">
+            <input type="text" placeholder="TV Show Title" name="query">
+            <button>Search</button>
+        </form>
+        <div class="img-container"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
